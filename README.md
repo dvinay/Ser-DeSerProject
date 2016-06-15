@@ -7,10 +7,10 @@ Serializable and deserializable using Java
 ###### The reverse process of creating object from sequence of bytes is called deserialization.
 
 ###### Serializable API encapsulated under java.io package for serializing and deserializing objects which include,
-  ⋅⋅* java.io.serializable
-  ⋅⋅* java.io.Externalizable
-  ⋅⋅* ObjectInputStream
-  ⋅⋅* ObjectOutputStream
+  * java.io.serializable
+  * java.io.Externalizable
+  * ObjectInputStream
+  * ObjectOutputStream
 
 * writeObject():
   * method of ObjectOutputStream class serializes an object and send it to the output stream.
