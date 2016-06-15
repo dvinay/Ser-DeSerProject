@@ -14,6 +14,7 @@ Serializable and deserializable using Java
 
 * writeObject():
   * method of ObjectOutputStream class serializes an object and send it to the output stream.
+  <br>
   e.g:
   ```java
     public final void writeObject(object x) throws IOException
@@ -21,6 +22,7 @@ Serializable and deserializable using Java
   
 * readObject() :
   * method of ObjectInputStream class references object out of stream and deserialize it.
+  <br>
   e.g:
   ```java
     public final Object readObject() throws IOException,ClassNotFoundException
